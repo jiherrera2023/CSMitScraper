@@ -1,0 +1,116 @@
+{
+    "6-1": [
+        {
+            "label": "Communication Intensive",
+            "description": "Students must make one of their two required CI-M classes either 6.UAT or 6.UAR.",
+            "name": "CIM2",
+            "completion": [0, 2]
+        },
+        {
+            "label": "Advanced Undergraduate",
+            "description": "These classes meet the criteria that at least 40% of the grade for these 12-unit subjects is based on new advanced technical material that is rigorously evaluated through examinations, problem sets, projects, and papers.",
+            "name": "AUS2",
+            "completion": [0, 2]
+        },
+        {
+            "label": "EECS",
+            "description": "Any subject that satisfies departmental requirements is an EECS subject",
+            "name": "EECS",
+            "completion": [0, 2]
+        },
+        {
+            "label": "Advanced Departmental Lab",
+            "description": "At least 40% of the grade of the 12-unit subjects is based on labratory assignments",
+            "name": "DLAB2",
+            "completion": [0, 1]
+        },
+        {
+            "label": "Independent Inquiry",
+            "description": "At least 40% of the grade of the 12-unit subjects is based on a single, relativley open-ended project",
+            "name": "II",
+            "completion": [0, 1]
+        },
+        {
+            "label": "Probability",
+            "description": "These subjects provide grounding in probability",
+            "name": "PROB",
+            "completion": [0, 1]
+        }
+    ],
+    "6-2": [
+        {
+            "label": "Communication Intensive",
+            "description": "Students must make one of their two required CI-M classes either 6.UAT or 6.UAR.",
+            "name": "CIM2",
+            "completion": [0, 2]
+        },
+        {
+            "label": "Advanced Undergraduate",
+            "description": "These classes meet the criteria that at least 40% of the grade for these 12-unit subjects is based on new advanced technical material that is rigorously evaluated through examinations, problem sets, projects, and papers.",
+            "name": "AUS2",
+            "completion": [0, 2]
+        },
+        {
+            "label": "EECS",
+            "description": "Any subject that satisfies departmental requirements is an EECS subject",
+            "name": "EECS",
+            "completion": [0, 2]
+        },
+        {
+            "label": "Advanced Departmental Lab",
+            "description": "At least 40% of the grade of the 12-unit subjects is based on labratory assignments",
+            "name": "DLAB2",
+            "completion": [0, 1]
+        },
+        {
+            "label": "Independent Inquiry",
+            "description": "At least 40% of the grade of the 12-unit subjects is based on a single, relativley open-ended project",
+            "name": "II",
+            "completion": [0, 1]
+        },
+        {
+            "label": "Probability",
+            "description": "These subjects provide grounding in probability",
+            "name": "PROB",
+            "completion": [0, 1]
+        },
+        {
+            "label": "CS level 1 and 2",
+            "description": "These subjects are level 1 and 2 Computer Science subjects",
+            "name": "CS12",
+            "completion": [0, 2]
+        },
+        {
+            "label": "EE level 1 and 2",
+            "description": "These subjects are level 1 and 2 Electrical Engineering subjects",
+            "name": "EE12",
+            "completion": [0, 2]
+        },
+        {
+            "label": "EECS level 1 and 2",
+            "description": "These subjects are level 1 and 2 Electrical Engineering and Computer Science subjects",
+            "name": "EECS12",
+            "completion": [0, 1]
+        }
+    ],
+    "6-3": [
+        {
+            "label": "Advanced Undergraduate",
+            "description": "These classes meet the criteria that at least 40% of the grade for these 12-unit subjects is based on new advanced technical material that is rigorously evaluated through examinations, problem sets, projects, and papers.",
+            "name": "AUS2",
+            "completion": [0, 2]
+        },
+        {
+            "label": "EECS",
+            "description": "Any subject that satisfies departmental requirements is an EECS subject",
+            "name": "EECS",
+            "completion": [0, 2]
+        },
+        {
+            "label": "Independent Inquiry",
+            "description": "At least 40% of the grade of the 12-unit subjects is based on a single, relativley open-ended project",
+            "name": "II",
+            "completion": [0, 1]
+        }
+    ]
+}

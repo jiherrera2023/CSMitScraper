@@ -1,0 +1,135 @@
+{
+    "6-1": [
+        {
+            "label": "Intro",
+            "description": "Explore the fundementals of EECS",
+            "name": "intro",
+            "classes": [ "6.01" , "6.02" , "6.03" , "6.08" ],
+            "completion": [0, 1]
+        },
+        {
+            "label": "Programming",
+            "description": "Develop basic programming skills used in subjects of greater complexity",
+            "name": "prog",
+            "classes": [ "6.0001" , "6.0002" , "6.145" ],
+            "completion": [0, 1]
+        },
+        {
+            "label": "Math",
+            "description": "18.03 is a requirement for 6-1",
+            "name": "math",
+            "classes": [ "18.03" ],
+            "completion": [0, 1]
+        },
+        {
+            "label": "Foundation",
+            "description": "Build depth and breadth in areas ranging from circuits and electronics to applied electromagnatics and from principles of software development to signals and systems.",
+            "name": "foundation",
+            "classes": [ "6.002" , "6.003" , "6.004" ],
+            "completion": [0,3]
+        },
+        {
+            "label": "Header",
+            "description": "Provide mastering within EECS's subdisciplines: microelectronics; communicaiton, control and signal processing; bioelectrical engineering; computer systems engineering; design and analysis of algorithims; artificial intelligence.",
+            "name": "header",
+            "classes": [ "6.011" , "6.012" , "6.013" , "6.014" , "6.021" , "6.036" , "6.640" ],
+            "completion": [0, 3]
+
+        },
+        {
+            "label": "Communication Intensive",
+            "description": "Students must make one of their two required CI-M classes either 6.UAT or 6.UAR.",
+            "name": "CIM2",
+            "classes": [ "6.UAR" , "6.UAT" ],
+            "completion": [0, 1]
+        }
+    ],
+    "6-2": [
+        {
+            "label": "Intro",
+            "description": "Explore the fundementals of EECS",
+            "name": "intro",
+            "classes": [ "6.01" , "6.02" , "6.03" , "6.08" ],
+            "completion": [0, 1]
+        },
+        {
+            "label": "Programming",
+            "description": "Develop basic programming skills used in subjects of greater complexity",
+            "name": "prog",
+            "classes": [ "6.0001" , "6.0002" , "6.145" ],
+            "completion": [0, 1]
+        },
+        {
+            "label": "Math",
+            "description": "18.03 is a requirement for 6-2",
+            "name": "math",
+            "classes": [ "18.03" ],
+            "completion": [0, 1]
+        },
+        {
+            "label": "Foundation",
+            "description": "Build depth and breadth in areas ranging from circuits and electronics to applied electromagnatics and from principles of software development to signals and systems.",
+            "name": "foundation",
+            "classes": [ "6.002" , "6.003" , "6.004" , "6.006" , "6.008" , "6.009" ],
+            "completion": [0, 3]
+        },
+        {
+            "label": "Header",
+            "description": "Provide mastering within EECS's subdisciplines: microelectronics; communicaiton, control and signal processing; bioelectrical engineering; computer systems engineering; design and analysis of algorithims; artificial intelligence.",
+            "name": "header",
+            "classes": [ "6.011" , "6.012" , "6.013" , "6.014" , "6.021" , "6.031" , "6.033" , "6.034" , "6.036" , "6.045" , "6.046" , "6.640" ],
+            "completion": [0, 3]
+        },
+        {
+            "label": "Communication Intensive",
+            "description": "Students must make one of their two required CI-M classes either 6.UAT or 6.UAR.",
+            "name": "CIM2",
+            "classes": [ "6.UAR" , "6.UAT" ],
+            "completion": [0, 1]
+        }
+    ],
+    "6-3": [
+        {
+            "label": "Intro",
+            "description": "Explore the fundementals of EECS",
+            "name": "intro",
+            "classes": [ "6.01" , "6.02" , "6.03" , "6.08" ],
+            "completion": [0, 1]
+        },
+        {
+            "label": "Programming",
+            "description": "Develop basic programming skills used in subjects of greater complexity",
+            "name": "prog",
+            "classes": [ "6.0001" , "6.0002" , "6.145" ],
+            "completion": [0, 1]
+        },
+        {
+            "label": "Math",
+            "description": "6.042 is a requirement for 6-3",
+            "name": "math",
+            "classes": [ "6.042" ],
+            "completion": [0, 1]
+        },
+        {
+            "label": "Foundation",
+            "description": "Build depth and breadth in areas ranging from circuits and electronics to applied electromagnatics and from principles of software development to signals and systems.",
+            "name": "foundation",
+            "classes": [ "6.004" , "6.006" , "6.009" ],
+            "completion": [0, 3]
+        },
+        {
+            "label": "Header",
+            "description": "Provide mastering within EECS's subdisciplines: microelectronics; communicaiton, control and signal processing; bioelectrical engineering; computer systems engineering; design and analysis of algorithims; artificial intelligence.",
+            "name": "header",
+            "classes": [ "6.031" , "6.033" , "6.034" , "6.036" , "6.045" , "6.046" ],
+            "completion": [0, 4]
+        },
+        {
+            "label": "Communication Intensive",
+            "description": "Students must make one of their two required CI-M classes either 6.UAT or 6.UAR.",
+            "name": "CIM2",
+            "classes": [ "6.UAR" , "6.UAT" ],
+            "completion": [0, 1]
+        }
+    ]
+}
