@@ -1,6 +1,7 @@
 "use strict";
 
 const cheerio = require('cheerio');
+var textversionjs = require("textversionjs");
 const fs = require('fs');
 const path = require("path");
 const html = fs.readFileSync(path.resolve(__dirname, '../lib/html/main.html'));
@@ -64,6 +65,12 @@ const getNonGroupCourses = (courses, participationData) => {
         let classNumber = elementImmediateText($(this)).replace(/\*/, "");
         if (!courses[classNumber]) {
             courses[classNumber] = parseClassDiv($(this), null, classNumber, participationData);
+        }
+        // Special Case
+        if (classNumber === "6.UAT" || classNumber === "6.UAR") {
+            if (!courses[classNumber].groups.includes("CIM2")) {
+                courses[classNumber].groups.push("CIM2")
+            }
         }
 
     });
@@ -143,8 +150,16 @@ const parseClassDiv = (course, groupName, courseNumber, participationData) => {
             .children('div')
             .children('div')
             .first()
-            .text();
-
+            .html()
+        if (lecturers) {
+            lecturers = textversionjs(lecturers);
+            lecturers = lecturers.replace(/&#xA0;/gm, "\xa0");
+            lecturers = lecturers.replace(/&gt;/gm, ">");
+            lecturers = lecturers.replace(/&lt;/gm, "<");
+            lecturers = lecturers.replace(/&apos;/gm, "'");
+        }
+        console.log(lecturers)
+        
         let participation = participationInfo.getClassData(participationData, courseNumber);
 
         let groups = [];
